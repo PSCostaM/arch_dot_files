@@ -22,6 +22,7 @@ Generate fstab
 - hwclock --systohc
 -  pacman -S neovim(or any other text editor)
 -  nvim /etc/locale.gen
+
 **Uncomment en_US.utf8**
 
 
