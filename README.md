@@ -50,12 +50,12 @@ Uncomment wheel line
 - grub-install -target=x86_64-efi --bootloader-id=grub_uefi --recheck
 - grub-mkconfig -o /boot/grub/grub.cfg
 
-## INSTALL SOME OTHER STUFF WHILE IN SDA5
+### INSTALL SOME OTHER STUFF WHILE IN SDA5
 
 - pacman -S networkmanager git nitrogen 
 - systemctl enable NetworkManager 
 
-##Exit out of chroot
+### Exit out of chroot
 
 - exit
 - umount -l /mnt
