@@ -62,4 +62,34 @@ Uncomment wheel line
 
 Now you can shutdown now remove the usb and go into arch linux
 
+## Installing the base system with WM and other stuff
 
+Enter arch with your user(dele)
+
+- loadkeys la-latin1
+- sudo pacman -S xf86_video_fbdev xorg xorg-xinit nvidia nvidia-utils nvidia-settings nitrogen picom alacritty firefox
+
+### installing yay 
+
+- sudo pacman -S base-devel
+- mkdir Gits && cd Gits
+- git clone https:://aur.archlinux.org/yay-git.git
+- cd yay/
+- makepkg -si
+- git clone https://github.com/PSCostaM/arch_dot_files.git (These are my config files)
+- pacman -S rofi
+- yay -S nerd-fonts-complete
+- pacman -S i3
+
+### Using xinit file
+
+First move Script directory into ~/
+
+Use the one in the cloned repo
+- cp .xinitrc /home/dele/ 
+
+Finally `code startx`
+
+Hopefully it doesn't break.
+
+Enjoy arch-linux with i3-gaps
