@@ -1,6 +1,6 @@
 # arch_dot_files
 These are my precious dot files subject to many changes as I progress as a linux user.
-## Installation Guide by me:
+## Installation Guide:
 - Usb with arch linux iso
 - 3 partitions: UEFI(500MB), Linux Swap(32GB), linux Filesystem(what's left of the disk space)
 ### Pre-installation steps
