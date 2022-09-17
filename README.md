@@ -14,7 +14,6 @@ These are my precious dot files subject to many changes as I progress as a linux
 - swapon /dev/sda4
 - mkfs.ext4 /dev/sda5
 - mount /dev/sda5 /mnt
--- filesystems ready
 - pacstrap /mnt base linux-firmware
 
 
