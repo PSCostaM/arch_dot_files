@@ -25,4 +25,14 @@ Generate fstab
 
 **Uncomment en_US.utf8**
 
+- locale-gen
+- nvim /etc/hostname
+
+**Type hostname(will go after user)**
+
+- nvim /etc/hosts
+
+- 127.0.0.1 localhost
+- ::1 localhost
+- 127.0.1.1 hostname.localdomain hostname
 
