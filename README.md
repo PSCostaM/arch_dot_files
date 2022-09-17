@@ -35,4 +35,7 @@ Generate fstab
 - 127.0.0.1 localhost
 - ::1 localhost
 - 127.0.1.1 hostname.localdomain hostname
-
+- passwd (type in password)
+- useradd -m **user**
+- passwd **user**
+- usermod -aG wheel,audio,video,optical,storage **user**
