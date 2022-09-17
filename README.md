@@ -47,7 +47,7 @@ Uncomment wheel line
 - pacman -S grub efibootmgr dosfstool os-prober mtools
 - mkdir /boot/EFI
 - mount /dev/sda3(EFI PARTITION) /boot/EFI
-- grub-install -target=x86_64-efi --bootloader-id=grub_uefi --recheck
+- grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
 - grub-mkconfig -o /boot/grub/grub.cfg
 
 ### INSTALL SOME OTHER STUFF WHILE IN SDA5
