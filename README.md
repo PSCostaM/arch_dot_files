@@ -17,6 +17,5 @@ mkfs.ext4 /dev/sda5
 mount /dev/sda5 /mnt
 --filesystems ready
 pacstrap /mnt base linux-firmware
-
 `
 
