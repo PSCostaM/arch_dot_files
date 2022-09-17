@@ -15,5 +15,13 @@ run this commands in order
 - mkfs.ext4 /dev/sda5
 - mount /dev/sda5 /mnt
 - pacstrap /mnt base linux-firmware
+Generate fstab
+- genfstab -U /mnt >> /mnt/etc/fstab
+- arch-chroot /mnt
+- ln -sf /usr/share/zoneinfo/America/Lima
+- hwclock --systohc
+-  pacman -S neovim(or any other text editor)
+-  nvim /etc/locale.gen
+**Uncomment en_US.utf8**
 
 
